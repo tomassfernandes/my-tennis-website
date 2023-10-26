@@ -7,8 +7,8 @@ export default function CTASection() {
             Your <span>tennis adventure</span> starts here!
           </h1>
           <p>
-            Take the most out of our facilities to take your tennis to the next
-            level
+            Maximize your use of our facilities to elevate your tennis skills to
+            the next level.
           </p>
 
           <button className="cta-button">

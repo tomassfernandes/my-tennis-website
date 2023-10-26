@@ -9,3 +9,8 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
+.heading-secondary {
+  font-size: 3.6rem;
+  color: rgb(40, 40, 40);
+}
