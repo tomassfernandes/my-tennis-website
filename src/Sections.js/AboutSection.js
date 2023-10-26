@@ -1,11 +1,12 @@
-import AboutItem from "../Items.js/AboutItem";
+import InfoItem from "../Items.js/InfoItem";
 
 export default function InfoSection() {
   return (
     <section className="about-section">
       <div className="info-grid">
-        <AboutItem />
+        <InfoItem />
       </div>
+      <div className="facilities-info-div"></div>
     </section>
   );
 }

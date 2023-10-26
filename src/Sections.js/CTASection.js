@@ -13,28 +13,11 @@ export default function CTASection() {
 
           <button className="cta-button">
             Our Classes
-            <svg
+            <img
               className="arrow-svg"
-              xmlns="http://www.w3.org/2000/svg"
-              class="ionicon"
-              viewBox="0 0 512 512"
-            >
-              <path
-                d="M64 256c0 106 86 192 192 192s192-86 192-192S362 64 256 64 64 150 64 256z"
-                fill="none"
-                stroke="currentColor"
-                stroke-miterlimit="10"
-                stroke-width="32"
-              />
-              <path
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="32"
-                d="M216 352l96-96-96-96"
-              />
-            </svg>
+              src="/svg/arrow-right.png"
+              alt="arrow right"
+            />
           </button>
         </div>
       </div>

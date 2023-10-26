@@ -1,0 +1,31 @@
+.about-section {
+  background-color: rgb(255, 255, 255);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 9.6rem;
+}
+
+.info-item-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-item-div p {
+  font-size: 2.4rem;
+}
+
+.info-item-num {
+  color: #8ebd0b;
+}
+
+.info-item-text {
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+}
