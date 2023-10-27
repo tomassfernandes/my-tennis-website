@@ -1,5 +1,6 @@
 .about-section {
-  background-color: rgb(255, 255, 255);
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 .info-grid {
@@ -81,7 +82,7 @@
 .facilities-div p {
   font-size: 1.4rem;
   color: rgb(40, 40, 40);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .who-we-are-img-div {
