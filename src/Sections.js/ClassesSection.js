@@ -8,7 +8,6 @@ export default function ClassesSection() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollY = window.scrollY;
       const section = document.querySelector(".classes-section");
       if (section) {
         const sectionTop = section.getBoundingClientRect().top;
