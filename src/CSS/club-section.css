@@ -1,0 +1,15 @@
+.club-section {
+  max-width: 120rem;
+  background-color: rgba(40, 40, 40);
+  margin: 0 auto;
+  padding-top: 12rem;
+}
+
+.club-section-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.club-section-img {
+  width: 90%;
+}

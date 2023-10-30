@@ -7,6 +7,7 @@ import "./CSS/cta-section.css";
 import "./CSS/about-section.css";
 import "./CSS/services-section.css";
 import "./CSS/classes-section.css";
+import "./CSS/club-section.css";
 
 import App from "./App";
 

@@ -17,7 +17,7 @@ export default function InfoItem() {
       <div className="info-item-div">
         <p className="info-item-num">
           {counterOn && (
-            <CountUp start={0} end={item.num} duration={2.5} delay={0.2} />
+            <CountUp start={0} end={item.num} duration={2} delay={0.2} />
           )}
           {item.num >= 100 && "+"}
         </p>

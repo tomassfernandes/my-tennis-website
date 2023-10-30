@@ -2,7 +2,8 @@
   max-width: 120rem;
   margin: 9.6rem auto 0rem auto;
   background-color: white; /* Initial background color */
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   padding-top: 2.4rem;
   opacity: 0;
   transition: all 0.75s ease; /* Add a smooth transition effect */
@@ -75,4 +76,10 @@
   width: 70%;
   background-color: rgba(255, 255, 255, 0.361);
   margin: 7.2rem auto;
+}
+
+.last-seperator {
+  background-color: #b1ec0e;
+  margin-top: 7.2rem;
+  margin-bottom: 0;
 }
