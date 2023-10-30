@@ -1,9 +1,35 @@
+import React, { useState, useEffect } from "react";
+
 import ClassesItem1 from "../Items.js/ClassesItem1";
 import ClassesItem2 from "../Items.js/ClassesItem2";
 
 export default function ClassesSection() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const section = document.querySelector(".classes-section");
+      if (section) {
+        const sectionTop = section.getBoundingClientRect().top;
+        // Check if the section is within 100 pixels of the top
+        if (sectionTop < 300) {
+          setIsScrolled(true);
+          // Remove the event listener to prevent further changes
+          window.removeEventListener("scroll", handleScroll);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <section className="classes-section">
+    <section className={`classes-section${isScrolled ? " scrolled" : ""}`}>
       <h2 className="heading-secondary">Classes</h2>
       <ClassesItem1
         title="Kids"
