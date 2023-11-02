@@ -1,8 +1,7 @@
 .club-section {
-  max-width: 120rem;
   background-color: rgba(40, 40, 40);
-  margin: 0 auto;
-  padding-top: 12rem;
+  margin: 9.6rem auto;
+  padding: 6rem 0rem;
 }
 
 .club-section-grid {
@@ -10,6 +9,60 @@
   grid-template-columns: 60% 40%;
 }
 
+.club-section-text-div {
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem 4.8rem;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.club-section-h2 {
+  color: #b1ec0e;
+}
+
+.club-section-p {
+  font-size: 1.6rem;
+  color: white;
+  line-height: 1.7;
+}
+
+.club-section-btn {
+  border: none;
+  background-color: #b1ec0e;
+  width: 10rem;
+  height: 3rem;
+  color: rgba(40, 40, 40);
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 2.4rem;
+  cursor: pointer;
+}
+
 .club-section-img {
   width: 90%;
+}
+
+.club-section-courts-div {
+  margin-top: 9.6rem;
+}
+
+.club-section-courts-div h3 {
+  text-align: center;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.swiper-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80rem;
+  margin-top: 2.4rem;
+}
+
+.swiper-img {
+  width: 100%;
+  border-radius: 10px;
 }

@@ -9,7 +9,15 @@ import "./CSS/services-section.css";
 import "./CSS/classes-section.css";
 import "./CSS/club-section.css";
 
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import { register } from "swiper/element/bundle";
+
 import App from "./App";
+
+register();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

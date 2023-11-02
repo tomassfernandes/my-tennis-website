@@ -12,8 +12,8 @@ function App() {
       <CTASection />
       <AboutSection />
       <ServicesSection />
-      <ClassesSection />
       <ClubSection />
+      <ClassesSection />
     </>
   );
 }
