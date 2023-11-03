@@ -9,6 +9,13 @@
   grid-template-columns: 60% 40%;
 }
 
+.club-section-courts-div {
+  background-image: url("/public/img/club-background.webp");
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: center; /* Center the background image */
+  width: 100%;
+}
+
 .club-section-text-div {
   display: flex;
   flex-direction: column;
@@ -41,16 +48,29 @@
 
 .club-section-img {
   width: 90%;
+  border-radius: 5px;
 }
 
 .club-section-courts-div {
-  margin-top: 9.6rem;
+  padding: 9.6rem 0;
 }
 
-.club-section-courts-div h3 {
+.club-section-first-p {
   text-align: center;
-  max-width: 100rem;
-  margin: 0 auto;
+  color: white;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.club-section-h2 {
+  text-align: center;
+  color: #b1ec0e !important;
+}
+
+/* ------------------ COURTS ITEM ---------------- */
+
+.swiper {
+  padding: 3.6rem 0 !important;
 }
 
 .swiper-div {
@@ -59,10 +79,108 @@
   justify-content: center;
   margin: 0 auto;
   max-width: 80rem;
-  margin-top: 2.4rem;
+  border-radius: 10px;
 }
 
 .swiper-img {
   width: 100%;
   border-radius: 10px;
+  cursor: grab;
+}
+
+.swiper-img:active {
+  cursor: grabbing;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
+  height: fit-content;
+}
+
+/* Style the individual dot */
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 50%;
+  margin: 0 0.8rem !important;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style the active dot */
+.swiper-pagination-bullet-active {
+  background-color: #b1ec0e !important;
+  z-index: 99 !important;
+}
+
+/* ------------------ GYM ITEM ---------------- */
+
+.gym-item-div {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 9.6rem 0;
+}
+
+.gym-item-grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 2.4rem;
+  margin-top: 6.4rem;
+}
+
+.gym-item-img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.gym-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gym-item-text-div {
+  display: flex;
+  flex-direction: column;
+  padding: 3.6rem;
+  justify-content: center;
+}
+
+.gym-lottie {
+  width: 20rem;
+  height: 20rem;
+  align-self: center;
+  margin-top: -2.4rem;
+}
+
+.gym-item-text-div h3 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: white;
+  margin-bottom: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.gym-item-text-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gym-icons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gym-icon {
+  width: 7rem;
+  height: 7rem;
+  margin: 2.8rem 0 1.2rem;
+}
+
+.gym-icon-text {
+  color: rgb(222, 222, 222);
+  font-size: 1.6rem;
 }

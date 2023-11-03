@@ -10,7 +10,8 @@ export default function CourtsItem() {
 
   return (
     <div className="club-section-courts-div">
-      <h3 className="heading-terciary">Courts</h3>
+      <p className="club-section-first-p">Where you play</p>
+      <h2 className="heading-secondary club-section-h2">Courts</h2>
 
       <Swiper
         className="swiper-div"

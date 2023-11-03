@@ -1,4 +1,5 @@
 import CourtsItem from "../Items.js/CourtsItem";
+import GymItem from "../Items.js/GymItem";
 
 export default function ClubSection() {
   return (
@@ -33,6 +34,7 @@ export default function ClubSection() {
         </div>
       </div>
       <CourtsItem />
+      <GymItem />
     </section>
   );
 }
