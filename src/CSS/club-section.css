@@ -119,7 +119,7 @@
 .gym-item-div {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 9.6rem 0;
+  padding-top: 9.6rem;
 }
 
 .gym-item-grid {

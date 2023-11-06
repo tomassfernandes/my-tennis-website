@@ -1,8 +1,12 @@
+import { useState } from "react";
 import Lottie from "lottie-react";
 import animationData from "../assets/gym-animation.json";
 import GymBenefitsItem from "./GymBenefitsItem";
+import ScrollTrigger from "react-scroll-trigger";
 
 export default function GymItem() {
+  const [isAnimationVisible, setIsAnimationVisible] = useState(false);
+
   return (
     <div className="gym-item-div">
       <p className="club-section-first-p">Equipment and Personal Training</p>
@@ -15,7 +19,18 @@ export default function GymItem() {
           <img className="gym-img" src="/img/gym2.webp" alt="Gym space" />
         </div>
         <div className="gym-item-text-div">
-          <Lottie className="gym-lottie" animationData={animationData} />
+          <ScrollTrigger
+            className="gym-lottie"
+            onEnter={() => setIsAnimationVisible(true)}
+          >
+            {isAnimationVisible && (
+              <Lottie
+                loop={false}
+                animationData={animationData}
+                isStopped={!isAnimationVisible}
+              />
+            )}
+          </ScrollTrigger>
           <h3>The Power of Gym Work</h3>
           <div className="gym-item-text-grid">
             <GymBenefitsItem />

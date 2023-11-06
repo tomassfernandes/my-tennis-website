@@ -4,6 +4,7 @@ import AboutSection from "./Sections.js/AboutSection";
 import ServicesSection from "./Sections.js/ServicesSection";
 import ClassesSection from "./Sections.js/ClassesSection";
 import ClubSection from "./Sections.js/ClubSection";
+import PricingSection from "./Sections.js/PricingSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <ClubSection />
+      <PricingSection />
       <ClassesSection />
     </>
   );
