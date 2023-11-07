@@ -55,9 +55,108 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2.4rem;
+  transition: all 0.5s;
+}
+
+.pricing-div:hover {
+  background-color: rgb(40, 40, 40);
+  transform: translateY(-2.4rem);
+}
+
+.pricing-title {
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  color: rgb(40, 40, 40);
+  transition: all 0.5s;
+}
+
+.pricing-div:hover .pricing-title {
+  color: white;
+}
+
+.pricing-payment-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.pricing-price {
+  font-size: 4.2rem;
+  color: rgb(40, 40, 40);
+  transition: all 0.5s;
+}
+
+.pricing-div:hover .pricing-price {
+  color: white;
+}
+
+.pricing-payment {
+  font-size: 1.2rem;
+  color: rgba(40, 40, 40, 0.751);
+  transition: all 0.5s;
+}
+
+.pricing-div:hover .pricing-payment {
+  color: rgba(255, 255, 255, 0.71);
 }
 
 .pricing-main-icon {
   width: 8rem;
   height: 8rem;
+  color: #8ebd0b;
+  transition: all 0.5s;
+}
+
+.pricing-div:hover .pricing-main-icon {
+  color: #bdff05;
+}
+
+.features-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.4rem;
+}
+
+.individual-feature-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-yes-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #8ebd0b;
+  transition: all 0.5s;
+}
+
+.pricing-div:hover .feature-yes-icon {
+  color: #bdff05;
+}
+
+.feature-no-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #c71212;
+  transition: all 0.5s;
+}
+
+.pricing-div:hover .feature-no-icon {
+  color: #fe5151;
+}
+
+.feature-text {
+  font-size: 1.2rem;
+  color: rgb(40, 40, 40);
+  transition: all 0.5s;
+}
+
+.pricing-div:hover .feature-text {
+  color: white;
 }
