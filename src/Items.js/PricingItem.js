@@ -1,4 +1,4 @@
-export default function PricingItem() {
+export default function PricingItem({ type }) {
   const basicIcon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -115,38 +115,47 @@ export default function PricingItem() {
     {
       mainIcon: basicIcon,
       title: "Basic",
-      price: "15€",
+      monthlyPrice: "15€",
+      yearlyPrice: "165€",
       payment: "/Month",
       yesIcon: yesIcon,
       noIcon: noIcon,
-      text: "fsfwfefefefefww",
-      feature1: "okdoekdeokd",
-      feature2: "okdoekdeokd",
-      feature3: "okdoekdeokd",
+      text: "A solid start",
+      feature1: "2 trains per week",
+      feature2: "No priority court reservations",
+      feature3: "Social play events",
+      feature4: "No gym access",
+      feature5: "No personal trainer",
     },
     {
       mainIcon: plusIcon,
       title: "Plus",
-      price: "30€",
+      monthlyPrice: "30€",
+      yearlyPrice: "330€",
       payment: "/Month",
       yesIcon: yesIcon,
       noIcon: noIcon,
-      text: "fsfwfefefefefww",
-      feature1: "okdoekdeokd",
-      feature2: "okdoekdeokd",
-      feature3: "okdoekdeokd",
+      text: "Your upgrade choice",
+      feature1: "3 trains per week",
+      feature2: "No priority court reservations",
+      feature3: "League play events",
+      feature4: "Gym access",
+      feature5: "No personal trainer",
     },
     {
       mainIcon: premiumIcon,
       title: "Premium",
-      price: "40€",
+      monthlyPrice: "40€",
+      yearlyPrice: "440€",
       payment: "/Month",
       yesIcon: yesIcon,
       noIcon: noIcon,
-      text: "fsfwfefefefefww",
-      feature1: "No okdoekdeokd",
-      feature2: "okdoekdeokd",
-      feature3: "okdoekdeokd",
+      text: "The ultimate experience",
+      feature1: "5 trains per week",
+      feature2: "Priority court reservations",
+      feature3: "Premium tennis events",
+      feature4: "Full gym access",
+      feature5: "Personal trainer",
     },
   ];
 
@@ -154,9 +163,14 @@ export default function PricingItem() {
     <div className="pricing-div">
       <div className="pricing-main-icon">{item.mainIcon}</div>
       <h3 className="pricing-title">{item.title}</h3>
+      <p className="pricing-text">{item.text}</p>
       <div className="pricing-payment-div">
-        <p className="pricing-price">{item.price}</p>
-        <p className="pricing-payment">{item.payment}</p>
+        <p className="pricing-price">
+          {type === "monthly" ? item.monthlyPrice : item.yearlyPrice}
+        </p>
+        <p className="pricing-payment">
+          {type === "monthly" ? item.payment : "/Year"}
+        </p>
       </div>
       <div className="features-div">
         <div className="individual-feature-div">
@@ -169,6 +183,58 @@ export default function PricingItem() {
             <>
               <div className="feature-yes-icon">{item.yesIcon}</div>
               <p className="feature-text">{item.feature1}</p>
+            </>
+          )}
+        </div>
+        <div className="individual-feature-div">
+          {item.feature2.includes("No") ? (
+            <>
+              <div className="feature-no-icon">{item.noIcon}</div>
+              <p className="feature-text">{item.feature2}</p>
+            </>
+          ) : (
+            <>
+              <div className="feature-yes-icon">{item.yesIcon}</div>
+              <p className="feature-text">{item.feature2}</p>
+            </>
+          )}
+        </div>
+        <div className="individual-feature-div">
+          {item.feature3.includes("No") ? (
+            <>
+              <div className="feature-no-icon">{item.noIcon}</div>
+              <p className="feature-text">{item.feature3}</p>
+            </>
+          ) : (
+            <>
+              <div className="feature-yes-icon">{item.yesIcon}</div>
+              <p className="feature-text">{item.feature3}</p>
+            </>
+          )}
+        </div>
+        <div className="individual-feature-div">
+          {item.feature4.includes("No") ? (
+            <>
+              <div className="feature-no-icon">{item.noIcon}</div>
+              <p className="feature-text">{item.feature4}</p>
+            </>
+          ) : (
+            <>
+              <div className="feature-yes-icon">{item.yesIcon}</div>
+              <p className="feature-text">{item.feature4}</p>
+            </>
+          )}
+        </div>
+        <div className="individual-feature-div">
+          {item.feature5.includes("No") ? (
+            <>
+              <div className="feature-no-icon">{item.noIcon}</div>
+              <p className="feature-text">{item.feature5}</p>
+            </>
+          ) : (
+            <>
+              <div className="feature-yes-icon">{item.yesIcon}</div>
+              <p className="feature-text">{item.feature5}</p>
             </>
           )}
         </div>
