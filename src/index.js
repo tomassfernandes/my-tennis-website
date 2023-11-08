@@ -9,6 +9,7 @@ import "./CSS/services-section.css";
 import "./CSS/classes-section.css";
 import "./CSS/club-section.css";
 import "./CSS/pricing-section.css";
+import "./CSS/footer.css";
 
 import "swiper/css";
 import "swiper/css/navigation";

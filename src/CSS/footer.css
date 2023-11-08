@@ -1,0 +1,100 @@
+.footer {
+  position: relative;
+}
+
+.footer-main-div {
+  margin: 0 auto;
+  padding: 4.6rem;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  align-items: center;
+  margin-top: 12rem;
+}
+
+.footer h4 {
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer p {
+  color: rgb(220, 220, 220);
+  font-size: 1.2rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.6rem;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.socials-div {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.socials-div svg {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.socials-div svg:hover {
+  fill: #b1ec0e;
+}
+
+.newsletter-div {
+  height: 15rem;
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #b1ec0e;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.newsletter-div h3 {
+  color: rgb(40, 40, 40);
+  font-size: 2rem;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+.form-input {
+  border: none;
+  padding: 0.6rem 1.2rem;
+}
+
+.form-btn {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(40, 40, 40);
+  padding: 0.6rem 3.6rem;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.3s;
+  border: 2px solid rgb(40, 40, 40);
+}
+
+.form-btn:hover {
+  background-color: rgba(40, 40, 40, 0.174);
+  color: rgb(40, 40, 40);
+}
