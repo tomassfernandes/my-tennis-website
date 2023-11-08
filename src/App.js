@@ -1,22 +1,17 @@
-import Header from "./Sections.js/Header";
-import CTASection from "./Sections.js/CTASection";
-import AboutSection from "./Sections.js/AboutSection";
-import ServicesSection from "./Sections.js/ServicesSection";
-import ClubSection from "./Sections.js/ClubSection";
-import PricingSection from "./Sections.js/PricingSection";
-import Footer from "./Sections.js/Footer";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import HomePage from "./Home Page/HomePage";
+import ClassesPage from "./Classes Page/ClassesPage";
 
 function App() {
   return (
-    <>
-      <Header />
-      <CTASection />
-      <AboutSection />
-      <ServicesSection />
-      <ClubSection />
-      <PricingSection />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/home" exact element={<HomePage />} />
+        <Route path="/classes" element={<ClassesPage />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Lottie from "lottie-react";
-import animationData from "../assets/gym-animation.json";
+import animationData from "../../assets/gym-animation.json";
 import GymBenefitsItem from "./GymBenefitsItem";
 import ScrollTrigger from "react-scroll-trigger";
 

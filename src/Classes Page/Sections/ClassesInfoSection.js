@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-import ClassesItem1 from "../Items.js/ClassesItem1";
-import ClassesItem2 from "../Items.js/ClassesItem2";
+import ClassesItem1 from "../Items/ClassesItem1";
+import ClassesItem2 from "../Items/ClassesItem2";
 
-export default function ClassesSection() {
+export default function ClassesInfoSection() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {

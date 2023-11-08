@@ -1,3 +1,75 @@
+.classes-main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.classes-main-img-div {
+  background-image: url("/public/img/Classes-main-img.webp");
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: center; /* Center the background image */
+  width: 100%;
+  height: 50vh;
+}
+
+.classes-main-section h1 {
+  color: rgba(40, 40, 40);
+  font-size: 2.6rem;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.schedule-p {
+  color: #8ebd0b;
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.days-table-div {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-top: 4.6rem;
+}
+
+.classes-day-active {
+  font-size: 1.6rem;
+  padding: 0.8rem 2.4rem;
+  background-color: #8ebd0b;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.classes-day-non-active {
+  font-size: 1.6rem;
+  padding: 0.8rem 2.4rem;
+  border-radius: 20px;
+  color: rgba(40, 40, 40);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.schedule-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.schedule-div {
+  padding: 1.2rem 2.4rem;
+  background-color: rgb(233, 233, 233);
+}
+
+/* ------------------------------------------------
+------------------------------------------------*/
+
 .classes-section {
   max-width: 120rem;
   margin: 9.6rem auto 0rem auto;
