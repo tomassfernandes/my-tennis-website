@@ -1,7 +1,7 @@
 .pricing-section {
   max-width: 120rem;
   margin: 0 auto;
-  padding-top: 2.4rem;
+  padding: 2.4rem 0 12rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;

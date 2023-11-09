@@ -3,15 +3,19 @@ import ReactDOM from "react-dom/client";
 
 import "./general.css";
 
-import "./CSS/CSS/HomePage.css/header.css";
-import "./CSS/CSS/HomePage.css/cta-section.css";
-import "./CSS/CSS/HomePage.css/about-section.css";
-import "./CSS/CSS/HomePage.css/services-section.css";
-import "./CSS/CSS/HomePage.css/club-section.css";
-import "./CSS/CSS/HomePage.css/pricing-section.css";
-import "./CSS/CSS/HomePage.css/footer.css";
+import "./CSS/HomePage.css/header.css";
+import "./CSS/HomePage.css/cta-section.css";
+import "./CSS/HomePage.css/about-section.css";
+import "./CSS/HomePage.css/services-section.css";
+import "./CSS/HomePage.css/club-section.css";
+import "./CSS/HomePage.css/pricing-section.css";
+import "./CSS/HomePage.css/footer.css";
 
-import "./CSS/CSS/ClassesPage.css/classes-section.css";
+import "./CSS/ClassesPage.css/classes-section.css";
+
+import "./CSS/ClassesPage.css/classes-section.css";
+
+import "./CSS/GalleryPage.css/gallery-page.css";
 
 import "swiper/css";
 import "swiper/css/navigation";

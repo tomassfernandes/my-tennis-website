@@ -13,7 +13,7 @@ export default function Header() {
 
         <img className="logo-img" src="/img/logo.png" alt="My Tennis logo" />
 
-        <Link href="Gallery" className="nav-link">
+        <Link to="/gallery" className="nav-link">
           Gallery
         </Link>
         <Link href="About" className="nav-link">

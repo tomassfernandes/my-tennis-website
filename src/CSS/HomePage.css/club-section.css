@@ -114,6 +114,10 @@
   z-index: 99 !important;
 }
 
+.swiper-slide-active {
+  border-radius: 10px;
+}
+
 /* ------------------ GYM ITEM ---------------- */
 
 .gym-item-div {

@@ -62,7 +62,6 @@ export default function ClassesInfoSection() {
         description="It's never too late to start or reignite your tennis journey. Our adult classes cater to individuals of all experience levels, from newcomers to seasoned players. Whether you're looking to learn the basics, refine your technique, or simply stay active and enjoy the sport, our adult classes offer a welcoming atmosphere led by knowledgeable coaches. You can expect to enhance your tennis skills, stay in shape, and connect with fellow tennis enthusiasts while having a fantastic time on the court."
         img="/img/adult-lessons.webp"
       />
-      <div className="seperator last-seperator"></div>
     </section>
   );
 }
