@@ -17,6 +17,8 @@ import "./CSS/ClassesPage.css/classes-section.css";
 
 import "./CSS/GalleryPage.css/gallery-page.css";
 
+import "./CSS/ContactPage.css/contact-page.css";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

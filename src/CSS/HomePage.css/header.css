@@ -46,6 +46,11 @@
 }
 
 .logo-img {
+  display: block;
+  max-width: 100%;
+}
+
+.logo-link {
+  display: block;
   width: 20%;
-  margin-bottom: 0.8rem;
 }
