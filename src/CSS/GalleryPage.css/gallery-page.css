@@ -1,0 +1,27 @@
+.gallery-section {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.gallery-h1 {
+  color: rgb(40, 40, 40);
+  font-size: 3.2rem;
+  text-align: center;
+  margin-top: 6.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.gallery-photos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+
+.gallery-photo-div {
+  padding: 2.4rem;
+}
+
+.gallery-photo-img {
+  width: 100%;
+  border-radius: 5px;
+}
