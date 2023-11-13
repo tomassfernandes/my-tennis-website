@@ -10,7 +10,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 80%;
+}
+
+.nav-links-div {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
 }
 
 .nav-link {
@@ -52,5 +58,5 @@
 
 .logo-link {
   display: block;
-  width: 20%;
+  width: 14%;
 }

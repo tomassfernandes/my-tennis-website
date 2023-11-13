@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ScheduleItem from "../Items/ScheduleItem";
+import { Link } from "react-scroll";
 
 export default function ClassesSection() {
   const [activeDay, setActiveDay] = useState("Monday");
@@ -87,7 +88,13 @@ export default function ClassesSection() {
       </div>
       <div className="schedule-main-div">
         <ScheduleItem activeDay={activeDay} />
-        <button className="more-info-btn">More Info</button>
+        <Link
+          to="classes-section" // This should match the ID of your ClassesSection component
+          smooth={true}
+          duration={500} // Adjust the duration as needed
+        >
+          <button className="more-info-btn">More Info</button>
+        </Link>
       </div>
     </section>
   );

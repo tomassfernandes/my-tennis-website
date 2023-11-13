@@ -45,10 +45,29 @@
   justify-content: space-evenly;
 }
 
+.cta-btn-Link {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-btn-Link svg {
+  width: 2rem;
+  height: 2rem;
+  transition: all 0.5s;
+  margin-top: 0.2rem;
+}
+
+.cta-btn-Link:hover svg {
+  transform: translateX(10px); /* Adjust the value as needed */
+  fill: white;
+}
+
 .cta-button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.8rem;
   margin-top: 2.4rem;
   padding: 1rem 2.4rem;
   background-color: #b1ec0e;
@@ -61,15 +80,17 @@
   transition: all 0.5s;
 }
 
+.cta-button:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #b1ec0e;
+}
+
 .arrow-svg {
   width: 2rem;
   height: 2rem;
   margin-left: 1.2rem;
-  transition: all 0.5s;
-}
-
-.cta-button:hover .arrow-svg {
-  transform: translateX(10px); /* Adjust the value as needed */
+  transition: all 0.4s;
 }
 
 .btn-text {

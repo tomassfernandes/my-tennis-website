@@ -219,28 +219,6 @@
   line-height: 2.2rem;
 }
 
-.classes-btn {
-  width: 10rem;
-  height: 3rem;
-  background-color: #b1ec0e;
-  border: 2px solid #b1ec0e;
-  font-weight: 700;
-  margin-top: 4.8rem;
-  border-radius: 5px;
-  color: rgb(40, 40, 40);
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.classes-btn:hover {
-  color: #b1ec0e;
-  background-color: rgba(40, 40, 40);
-}
-
-.classes-btn-2 {
-  align-self: end;
-}
-
 .classes-img-div {
   display: flex;
   align-items: center;

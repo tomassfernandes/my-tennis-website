@@ -1,4 +1,6 @@
-export default function GalleryPhotos() {
+import { useState, useEffect } from "react";
+
+export default function GalleryPhotos({ setIsGalleryLoaded }) {
   const data = [
     { img: "/img/Gallery/gallery-gym-1.webp", alt: "Gym Equipment" },
     { img: "/img/Gallery/gallery-gym-2.webp", alt: "Gym Equipment" },
@@ -35,11 +37,29 @@ export default function GalleryPhotos() {
     },
   ];
 
+  const [loadedImages, setLoadedImages] = useState(0);
+
+  const handleImageLoad = () => {
+    setLoadedImages((prev) => prev + 1);
+  };
+
+  useEffect(() => {
+    if (loadedImages === data.length) {
+      // All images are loaded
+      setIsGalleryLoaded(true);
+    }
+  }, [loadedImages, data.length, setIsGalleryLoaded]);
+
   return (
     <div className="gallery-photos-grid">
-      {data.map((item) => (
-        <div className="gallery-photo-div">
-          <img className="gallery-photo-img" src={item.img} alt={item.alt} />
+      {data.map((item, index) => (
+        <div className="gallery-photo-div" key={index}>
+          <img
+            className="gallery-photo-img"
+            src={item.img}
+            alt={item.alt}
+            onLoad={handleImageLoad}
+          />
         </div>
       ))}
     </div>

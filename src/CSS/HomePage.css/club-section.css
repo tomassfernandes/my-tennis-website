@@ -34,16 +34,41 @@
   line-height: 1.7;
 }
 
+.club-section-Link {
+  text-decoration: none;
+  width: 12rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.club-section-Link svg {
+  width: 2rem;
+  height: 2rem;
+  fill: rgba(40, 40, 40);
+}
+
 .club-section-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: center;
   border: none;
   background-color: #b1ec0e;
-  width: 10rem;
-  height: 3rem;
+  border: 2px solid #b1ec0e;
+  width: 12rem;
+  height: 4rem;
   color: rgba(40, 40, 40);
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 5px;
-  margin-top: 2.4rem;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.club-section-btn:hover {
+  background-color: rgba(40, 40, 40);
+  color: white;
 }
 
 .club-section-img {

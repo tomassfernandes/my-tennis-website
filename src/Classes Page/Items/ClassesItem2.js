@@ -14,7 +14,6 @@ export default function ClassesItem2(props) {
           <span>{props.age ? `(${props.age} years old)` : ""}</span>
         </h3>
         <p>{props.description}</p>
-        <button className="classes-btn classes-btn-2">View Classes</button>
       </div>
     </div>
   );

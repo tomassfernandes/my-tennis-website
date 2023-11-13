@@ -28,7 +28,10 @@ export default function ClassesInfoSection() {
   }, []);
 
   return (
-    <section className={`classes-section${isScrolled ? " scrolled" : ""}`}>
+    <section
+      id="classes-section"
+      className={`classes-section${isScrolled ? " scrolled" : ""}`}
+    >
       <h2 className="heading-secondary">Classes</h2>
       <ClassesItem1
         title="Kids"
