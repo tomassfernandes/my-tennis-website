@@ -19,6 +19,8 @@ import "./CSS/GalleryPage.css/gallery-page.css";
 
 import "./CSS/ContactPage.css/contact-page.css";
 
+import "./CSS/queries/HomePage-queries.css";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

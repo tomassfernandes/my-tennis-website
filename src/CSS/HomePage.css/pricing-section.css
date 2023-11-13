@@ -45,9 +45,18 @@
   transition: all 0.3s;
 }
 
+.pricing-grid-div {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2.4rem;
+}
+
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(3, 30rem);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
   margin-top: 6.4rem;
 }
@@ -119,8 +128,8 @@
 }
 
 .pricing-main-icon {
-  width: 8rem;
-  height: 8rem;
+  width: 35%;
+  height: 35%;
   color: #8ebd0b;
   transition: all 0.5s;
 }

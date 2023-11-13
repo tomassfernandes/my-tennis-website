@@ -15,12 +15,19 @@
   text-align: center;
 }
 
+.services-grid-div {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.6rem;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3.2rem;
-  max-width: 80%;
-  margin: 3.6rem auto 0 auto;
 }
 
 .services-item-div {
@@ -28,7 +35,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 2.4rem 0.8rem;
+  padding: 2.4rem;
   background-color: rgba(240, 240, 240, 0.384);
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -36,8 +43,8 @@
 }
 
 .services-img {
-  width: 20rem;
-  height: 20rem;
+  width: 100%;
+  height: 100%;
 }
 
 .services-item-text {

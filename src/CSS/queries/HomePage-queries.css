@@ -1,0 +1,63 @@
+/*---------------------------------------
+------------- 75EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 75em) {
+  .cta-div {
+    padding: 9.6rem;
+    width: 80%;
+  }
+}
+
+/*---------------------------------------
+------------- 59EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 59em) {
+  .club-section-grid {
+    grid-template-columns: 100%;
+  }
+
+  .club-section-text-div {
+    align-items: center;
+    justify-content: center;
+    padding: 4.8rem;
+  }
+
+  .club-section-img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+
+  .club-section-img {
+    width: 50%;
+  }
+
+  .club-section-btn1-display {
+    display: none;
+  }
+
+  .club-section-btn2-display {
+    display: flex;
+  }
+
+  .gym-item-grid {
+    grid-template-columns: 1fr;
+    margin-top: 3.2rem;
+  }
+
+  .gym-item-img-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gym-item-img-grid {
+    order: 2;
+  }
+
+  .gym-item-text-div {
+    order: 1;
+  }
+}

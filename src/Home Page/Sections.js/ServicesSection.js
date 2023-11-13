@@ -5,8 +5,10 @@ export default function ServicesSection() {
     <section className="services-section">
       <p className="what-we-offer-p">What we offer</p>
       <h2 className="heading-secondary">Services</h2>
-      <div className="services-grid">
-        <ServicesItem />
+      <div className="services-grid-div">
+        <div className="services-grid">
+          <ServicesItem />
+        </div>
       </div>
     </section>
   );

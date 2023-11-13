@@ -26,9 +26,11 @@ export default function PricingSection() {
           Yearly
         </button>
       </div>
-      <div className="pricing-grid">
-        {activeBtn === "monthly" && <PricingItem type="monthly" />}
-        {activeBtn === "yearly" && <PricingItem type="yearly" />}
+      <div className="pricing-grid-div">
+        <div className="pricing-grid">
+          {activeBtn === "monthly" && <PricingItem type="monthly" />}
+          {activeBtn === "yearly" && <PricingItem type="yearly" />}
+        </div>
       </div>
     </section>
   );
