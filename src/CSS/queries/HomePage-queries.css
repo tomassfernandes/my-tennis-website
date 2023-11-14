@@ -10,10 +10,28 @@
 }
 
 /*---------------------------------------
+------------- 61EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 61em) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-div:hover {
+    transform: translateY(0);
+  }
+}
+
+/*---------------------------------------
 ------------- 59EM -----------------------
 -----------------------------------------*/
 
 @media (max-width: 59em) {
+  .logo-link {
+    width: 20%;
+  }
+
   .club-section-grid {
     grid-template-columns: 100%;
   }
@@ -59,5 +77,110 @@
 
   .gym-item-text-div {
     order: 1;
+  }
+}
+
+/*---------------------------------------
+------------- 45EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 45em) {
+  .cta-section {
+    height: 60rem;
+  }
+
+  .cta-div {
+    padding: 2.4rem;
+    width: 100%;
+  }
+
+  .club-section {
+    padding: 6rem 0 0 0;
+  }
+
+  .club-section-text-div {
+    padding: 1.6rem;
+  }
+
+  .about-section h2 {
+    text-align: center;
+  }
+
+  .about-section p {
+    text-align: center;
+  }
+
+  .info-grid {
+    width: 90%;
+  }
+
+  .who-we-are-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .who-we-are-left-div {
+    align-items: center;
+  }
+
+  .who-we-are-img-div {
+    justify-content: center;
+  }
+
+  .who-we-are-img {
+    width: 50%;
+  }
+
+  .facilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 6.4rem;
+  }
+
+  .gym-item-img-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gym-img {
+    width: 100%;
+  }
+}
+
+/*---------------------------------------
+------------- 37EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 37em) {
+  .info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-item-div {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .services-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .gym-item-text-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*---------------------------------------
+------------- 27EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 27em) {
+  .facilities-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 6.4rem;
   }
 }
