@@ -28,8 +28,11 @@
 -----------------------------------------*/
 
 @media (max-width: 59em) {
-  .logo-link {
-    width: 20%;
+  .header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
   }
 
   .club-section-grid {
@@ -78,6 +81,13 @@
   .gym-item-text-div {
     order: 1;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+  }
 }
 
 /*---------------------------------------
@@ -85,6 +95,44 @@
 -----------------------------------------*/
 
 @media (max-width: 45em) {
+  header .nav-btn {
+    display: block;
+  }
+
+  header .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.6rem;
+    background-color: black;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .nav-links-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+
+  header .responsive-nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
   .cta-section {
     height: 60rem;
   }
@@ -171,6 +219,10 @@
   .gym-item-text-grid {
     grid-template-columns: 1fr;
   }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*---------------------------------------
@@ -178,9 +230,82 @@
 -----------------------------------------*/
 
 @media (max-width: 27em) {
+  .header-div {
+    width: 90%;
+  }
+
+  .logo-link {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .cta-div {
+    padding: 0rem;
+    width: 100%;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: 3.6rem;
+  }
+
+  .services-item-div {
+    width: 80%;
+  }
+
   .facilities-grid {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 6.4rem;
+  }
+
+  .club-section-img {
+    width: 80%;
+  }
+
+  .gym-item-img-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gym-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .gym-icon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .gym-lottie {
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+    margin-top: -2.4rem;
+  }
+
+  .gym-icon-text {
+    text-align: center;
+  }
+
+  .footer-main-div {
+    padding: 0.8rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-form {
+    flex-direction: column;
+  }
+
+  .newsletter-div h3 {
+    text-align: center;
   }
 }

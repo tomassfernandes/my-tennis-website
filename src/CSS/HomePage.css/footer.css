@@ -1,5 +1,7 @@
 .footer {
-  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgb(40, 40, 40);
 }
 
 .footer-main-div {
@@ -52,16 +54,13 @@
 }
 
 .newsletter-div {
-  height: 15rem;
-  width: 45rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #b1ec0e;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  align-self: flex-end;
+  padding: 3.6rem;
 }
 
 .newsletter-div h3 {

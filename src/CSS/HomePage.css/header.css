@@ -6,11 +6,17 @@
   height: 10rem;
 }
 
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
 }
 
 .nav-links-div {
@@ -53,10 +59,25 @@
 
 .logo-img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .logo-link {
   display: block;
-  width: 14%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.nav-btn svg {
+  fill: white;
+}
+
+header .nav-btn {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: white;
+  display: none;
 }
