@@ -116,7 +116,7 @@
     gap: 3.6rem;
     background-color: black;
     transition: 1s;
-    transform: translateY(-100vh);
+    transform: translateY(-300vh);
   }
 
   header .nav-links-div {
@@ -210,6 +210,10 @@
     width: 85%;
   }
 
+  .who-we-are-left-div {
+    padding: 0.8rem;
+  }
+
   .services-grid {
     grid-template-columns: 1fr;
   }
@@ -275,6 +279,17 @@
 
   .gym-icon-text {
     text-align: center;
+  }
+
+  .facilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.8rem;
+  }
+
+  .facilities-img {
+    width: 4rem;
+    height: 4rem;
   }
 
   .footer {
