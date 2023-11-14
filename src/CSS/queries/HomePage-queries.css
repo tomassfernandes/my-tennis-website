@@ -206,6 +206,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .who-we-are-img {
+    width: 85%;
+  }
+
   .services-grid {
     grid-template-columns: 1fr;
   }
@@ -220,8 +224,12 @@
     height: 100%;
   }
 
-  .gym-item-text-grid {
-    grid-template-columns: 1fr;
+  .gym-icon-text {
+    text-align: center;
+  }
+
+  .gym-item-text-div {
+    padding: 0;
   }
 
   .footer-grid {
@@ -252,32 +260,12 @@
     width: 100%;
   }
 
-  .info-grid {
-    grid-template-columns: 1fr;
-    gap: 3.6rem;
-  }
-
   .services-item-div {
     width: 80%;
   }
 
-  .facilities-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 6.4rem;
-  }
-
   .club-section-img {
     width: 80%;
-  }
-
-  .gym-item-img-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .gym-img {
-    width: 80%;
-    margin: 0 auto;
   }
 
   .gym-icon {
@@ -289,9 +277,14 @@
     text-align: center;
   }
 
+  .footer {
+    padding-top: 3.6rem;
+  }
+
   .footer-main-div {
     padding: 0.8rem;
     margin-bottom: 3.6rem;
+    width: 90%;
   }
 
   .footer-grid {
