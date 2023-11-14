@@ -45,6 +45,10 @@
     padding: 4.8rem;
   }
 
+  .club-section-p {
+    margin-bottom: 3.6rem !important;
+  }
+
   .club-section-img-div {
     display: flex;
     flex-direction: column;
@@ -279,13 +283,6 @@
   .gym-icon {
     width: 5rem;
     height: 5rem;
-  }
-
-  .gym-lottie {
-    width: 10rem;
-    height: 10rem;
-    align-self: center;
-    margin-top: -2.4rem;
   }
 
   .gym-icon-text {
