@@ -23,6 +23,8 @@ import "./CSS/queries/HomePage-queries.css";
 
 import "./CSS/queries/ClassesPage-queries.css";
 
+import "./CSS/queries/ContactPage-queries.css";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

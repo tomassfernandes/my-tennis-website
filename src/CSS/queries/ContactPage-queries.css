@@ -1,0 +1,80 @@
+/*---------------------------------------
+------------- 60EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 60em) {
+  .contact-grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-top: -3.6rem;
+    gap: 0;
+  }
+
+  .contact-right-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-form {
+    margin-top: 3.6rem;
+  }
+
+  .contact-form-btn {
+    margin-top: 1.2rem;
+  }
+
+  .form-inputs {
+    width: 100%;
+  }
+
+  .contact-div {
+    padding: 9.6rem;
+  }
+}
+
+/*---------------------------------------
+------------- 38EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 38em) {
+  .contact-div {
+    padding: 2.4rem;
+    margin-top: 4.8rem;
+  }
+
+  .contact-right-div {
+    margin-top: 6.4rem;
+  }
+}
+
+/*---------------------------------------
+------------- 30EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 30em) {
+  .contact-div-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-small-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .contact-p {
+    text-align: center;
+  }
+
+  .contact-h3 {
+    text-align: center;
+  }
+
+  .contact-h2 {
+    text-align: center;
+  }
+}
