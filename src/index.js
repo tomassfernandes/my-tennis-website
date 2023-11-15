@@ -12,18 +12,13 @@ import "./CSS/HomePage.css/pricing-section.css";
 import "./CSS/HomePage.css/footer.css";
 
 import "./CSS/ClassesPage.css/classes-section.css";
-
-import "./CSS/ClassesPage.css/classes-section.css";
-
 import "./CSS/GalleryPage.css/gallery-page.css";
-
 import "./CSS/ContactPage.css/contact-page.css";
 
 import "./CSS/queries/HomePage-queries.css";
-
 import "./CSS/queries/ClassesPage-queries.css";
-
 import "./CSS/queries/ContactPage-queries.css";
+import "./CSS/queries/GalleryPage-queries.css";
 
 import "swiper/css";
 import "swiper/css/navigation";

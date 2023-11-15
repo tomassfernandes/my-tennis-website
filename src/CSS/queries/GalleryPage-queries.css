@@ -1,0 +1,27 @@
+/*---------------------------------------
+------------- 51EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 51em) {
+  .gallery-section {
+    width: 95%;
+  }
+
+  .gallery-photos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-photo-div {
+    padding: 0;
+  }
+}
+
+/*---------------------------------------
+------------- 23EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 23em) {
+  .gallery-photos-grid {
+    grid-template-columns: 1fr;
+  }
+}
