@@ -1,0 +1,87 @@
+/*---------------------------------------
+------------- 51EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 51em) {
+  .classes-main-img-div {
+    height: 30vh;
+  }
+
+  .schedule-content-div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .schedule-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+
+  .schedule-btn {
+    margin-left: 0;
+  }
+
+  .coaches-main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.6rem;
+  }
+
+  .classes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .classes-img {
+    width: 50%;
+    margin-top: 3.6rem;
+  }
+
+  .classes-img-2 {
+    margin-top: 0;
+    margin-bottom: 3.6rem;
+  }
+}
+
+/*---------------------------------------
+------------- 25EM -----------------------
+-----------------------------------------*/
+
+@media (max-width: 25em) {
+  .schedule-div {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-div p {
+    text-align: center;
+  }
+
+  .schedule-div h4 {
+    text-align: center;
+  }
+
+  .schedule-class-type-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .schedule-div {
+    gap: 3.6rem;
+    padding: 3.6rem 4.8rem;
+  }
+
+  .schedule-btn {
+    justify-self: center;
+  }
+
+  .coaches.img {
+    width: 100%;
+  }
+
+  .classes-img {
+    width: 90%;
+  }
+}

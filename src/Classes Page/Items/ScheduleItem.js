@@ -200,7 +200,7 @@ export default function ScheduleItem({ activeDay }) {
   );
 
   return (
-    <div>
+    <div className="schedule-content-div">
       {filteredData.map((item, index) =>
         item.className ? (
           <div className="schedule-div" key={index}>

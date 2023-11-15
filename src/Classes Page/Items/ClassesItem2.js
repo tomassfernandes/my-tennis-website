@@ -3,7 +3,7 @@ export default function ClassesItem2(props) {
     <div className="classes-grid">
       <div className="classes-img-div">
         <img
-          className="classes-img"
+          className="classes-img classes-img-2"
           src={props.img}
           alt="Kids playing tennis"
         />
